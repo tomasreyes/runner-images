@@ -1,12 +1,11 @@
 | Announcements |
 |-|
 | [[macOS] GCC 11 will be removed from all macOS images on August 12](https://github.com/actions/runner-images/issues/10213) |
-| [[macOS] Default Xcode on macOS 14 Sonoma will be set to Xcode 15.4 on July, 22](https://github.com/actions/runner-images/issues/10121) |
 ***
 # macOS 14
-- OS Version: macOS 14.5 (23F79)
-- Kernel Version: Darwin 23.5.0
-- Image Version: 20240722.3
+- OS Version: macOS 14.6 (23G80)
+- Kernel Version: Darwin 23.6.0
+- Image Version: 20240804.1
 
 ## Installed Software
 
@@ -25,23 +24,23 @@
 - GNU Fortran 14 (Homebrew GCC 14.1.0_2) - available by `gfortran-14` alias
 - Kotlin 2.0.0-release-341
 - Mono 6.12.0.188
-- Node.js 20.15.1
+- Node.js 20.16.0
 - Perl 5.38.2
 - PHP 8.3.9
 - Python3 3.12.4
 - Ruby 3.0.7p220
 
 ### Package Management
-- Bundler 2.5.16
+- Bundler 2.5.17
 - Carthage 0.39.1
 - CocoaPods 1.15.2
 - Composer 2.7.7
-- Homebrew 4.3.10
-- NPM 10.7.0
+- Homebrew 4.3.12
+- NPM 10.8.1
 - NuGet 6.3.1.1
-- Pip3 24.1.2 (python 3.12)
+- Pip3 24.2 (python 3.12)
 - Pipx 1.6.0
-- RubyGems 3.5.16
+- RubyGems 3.5.17
 - Yarn 1.22.22
 
 ### Project Management
@@ -52,14 +51,14 @@
 ### Utilities
 - 7-Zip 17.05
 - aria2 1.37.0
-- azcopy 10.25.1
+- azcopy 10.26.0
 - bazel 7.2.1
 - bazelisk 1.20.0
 - bsdtar 3.5.3 - available by 'tar' alias
-- Curl 8.8.0
-- Git 2.45.2
+- Curl 8.9.1
+- Git 2.46.0
 - Git LFS 3.5.1
-- GitHub CLI 2.53.0
+- GitHub CLI 2.54.0
 - GNU Tar 1.35 - available by 'gtar' alias
 - GNU Wget 1.24.5
 - gpg (GnuPG) 2.4.5
@@ -71,17 +70,17 @@
 - zstd 1.5.6
 
 ### Tools
-- AWS CLI 2.17.14
-- AWS SAM CLI 1.120.0
+- AWS CLI 2.17.22
+- AWS SAM CLI 1.121.0
 - AWS Session Manager CLI 1.2.650.0
 - Azure CLI 2.62.0
 - Azure CLI (azure-devops) 1.0.1
-- Bicep CLI 0.29.45
-- Cmake 3.30.1
-- CodeQL Action Bundle 2.18.0
-- Fastlane 2.221.1
-- SwiftFormat 0.54.2
-- Xcbeautify 2.4.1
+- Bicep CLI 0.29.47
+- Cmake 3.30.2
+- CodeQL Action Bundle 2.18.1
+- Fastlane 2.222.0
+- SwiftFormat 0.54.3
+- Xcbeautify 2.7.0
 - Xcode Command Line Tools 15.3.0.0.1.1708646388
 - Xcodes 1.5.0
 
@@ -89,14 +88,14 @@
 - SwiftLint 0.55.1
 
 ### Browsers
-- Safari 17.5 (19618.2.12.11.6)
-- SafariDriver 17.5 (19618.2.12.11.6)
-- Google Chrome 126.0.6478.183
-- Google Chrome for Testing 126.0.6478.182
-- ChromeDriver 126.0.6478.182
-- Microsoft Edge 126.0.2592.113
-- Microsoft Edge WebDriver 126.0.2592.102
-- Mozilla Firefox 128.0
+- Safari 17.6 (19618.3.11.11.5)
+- SafariDriver 17.6 (19618.3.11.11.5)
+- Google Chrome 127.0.6533.89
+- Google Chrome for Testing 127.0.6533.88
+- ChromeDriver 127.0.6533.88
+- Microsoft Edge 127.0.2651.86
+- Microsoft Edge WebDriver 127.0.2651.87
+- Mozilla Firefox 128.0.3
 - geckodriver 0.34.0
 - Selenium server 4.23.0
 
@@ -110,7 +109,7 @@
 ### Java
 | Version              | Environment Variable |
 | -------------------- | -------------------- |
-| 8.0.422+5            | JAVA_HOME_8_X64      |
+| 8.0.422+5.1          | JAVA_HOME_8_X64      |
 | 11.0.24+8            | JAVA_HOME_11_X64     |
 | 17.0.12+7            | JAVA_HOME_17_X64     |
 | 21.0.4+7.0 (default) | JAVA_HOME_21_X64     |
@@ -129,7 +128,7 @@
 
 #### Node.js
 - 18.20.4
-- 20.15.1
+- 20.16.0
 
 #### Go
 - 1.20.14
@@ -137,17 +136,17 @@
 - 1.22.5
 
 ### Rust Tools
-- Cargo 1.79.0
-- Rust 1.79.0
-- Rustdoc 1.79.0
+- Cargo 1.80.0
+- Rust 1.80.0
+- Rustdoc 1.80.0
 - Rustup 1.27.1
 
 #### Packages
-- Clippy 0.1.79
+- Clippy 0.1.80
 - Rustfmt 1.7.0-stable
 
 ### PowerShell Tools
-- PowerShell 7.4.3
+- PowerShell 7.4.4
 
 #### PowerShell Modules
 - Az: 12.1.0
@@ -157,7 +156,7 @@
 ### Xcode
 | Version        | Build    | Path                              |
 | -------------- | -------- | --------------------------------- |
-| 16.0 (beta)    | 16A5202i | /Applications/Xcode_16_beta_3.app |
+| 16.0 (beta)    | 16A5211f | /Applications/Xcode_16_beta_4.app |
 | 15.4 (default) | 15F31d   | /Applications/Xcode_15.4.app      |
 | 15.3           | 15E204a  | /Applications/Xcode_15.3.app      |
 | 15.2           | 15C500b  | /Applications/Xcode_15.2.app      |
@@ -210,17 +209,17 @@
 | Simulator - watchOS 10.4                                | watchsimulator10.4                            | 15.3          |
 | Simulator - watchOS 10.5                                | watchsimulator10.5                            | 15.4          |
 | Simulator - watchOS 11.0                                | watchsimulator11.0                            | 16.0          |
-| Simulator - visionOS 1.0                                | xrsimulator1.0                                | 15.2          |
 | visionOS 1.0                                            | xros1.0                                       | 15.2          |
-| visionOS 1.1                                            | xros1.1                                       | 15.3          |
+| Simulator - visionOS 1.0                                | xrsimulator1.0                                | 15.2          |
 | Simulator - visionOS 1.1                                | xrsimulator1.1                                | 15.3          |
+| visionOS 1.1                                            | xros1.1                                       | 15.3          |
 | Simulator - visionOS 1.2                                | xrsimulator1.2                                | 15.4          |
 | visionOS 1.2                                            | xros1.2                                       | 15.4          |
-| visionOS 2.0                                            | xros2.0                                       | 16.0          |
 | Simulator - visionOS 2.0                                | xrsimulator2.0                                | 16.0          |
+| visionOS 2.0                                            | xros2.0                                       | 16.0          |
 | Asset Runtime SDK for macOS hosts targeting watchOS 9.4 | assetruntime.host.macosx.target.watchos9.4    | 14.3.1        |
-| Asset Runtime SDK for macOS hosts targeting iOS 16.4    | assetruntime.host.macosx.target.iphoneos16.4  | 14.3.1        |
 | Asset Runtime SDK for macOS hosts targeting tvOS 16.4   | assetruntime.host.macosx.target.appletvos16.4 | 14.3.1        |
+| Asset Runtime SDK for macOS hosts targeting iOS 16.4    | assetruntime.host.macosx.target.iphoneos16.4  | 14.3.1        |
 | DriverKit 22.4                                          | driverkit22.4                                 | 14.3.1        |
 | DriverKit 23.0                                          | driverkit23.0                                 | 15.0.1        |
 | DriverKit 23.2                                          | driverkit23.2                                 | 15.1, 15.2    |

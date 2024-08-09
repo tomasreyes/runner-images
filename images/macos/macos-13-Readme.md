@@ -1,12 +1,11 @@
 | Announcements |
 |-|
 | [[macOS] GCC 11 will be removed from all macOS images on August 12](https://github.com/actions/runner-images/issues/10213) |
-| [[macOS] Default Xcode on macOS 14 Sonoma will be set to Xcode 15.4 on July, 22](https://github.com/actions/runner-images/issues/10121) |
 ***
 # macOS 13
-- OS Version: macOS 13.6.7 (22G720)
+- OS Version: macOS 13.6.8 (22G820)
 - Kernel Version: Darwin 22.6.0
-- Image Version: 20240721.3
+- Image Version: 20240805.3
 
 ## Installed Software
 
@@ -25,24 +24,24 @@
 - GNU Fortran 14 (Homebrew GCC 14.1.0_2) - available by `gfortran-14` alias
 - Kotlin 2.0.0-release-341
 - Mono 6.12.0.188
-- Node.js 20.15.1
+- Node.js 20.16.0
 - Perl 5.38.2
-- PHP 8.3.9
+- PHP 8.3.10
 - Python3 3.12.4
 - Ruby 3.0.7p220
 
 ### Package Management
-- Bundler 2.5.16
+- Bundler 2.5.17
 - Carthage 0.39.1
 - CocoaPods 1.15.2
 - Composer 2.7.7
-- Homebrew 4.3.10
-- NPM 10.7.0
+- Homebrew 4.3.13
+- NPM 10.8.1
 - NuGet 6.3.1.1
-- Pip3 24.1.2 (python 3.12)
+- Pip3 24.2 (python 3.12)
 - Pipx 1.6.0
-- RubyGems 3.5.16
-- Vcpkg 2024 (build from commit 821100d96)
+- RubyGems 3.5.17
+- Vcpkg 2024 (build from commit fe1cde61e)
 - Yarn 1.22.22
 
 ### Project Management
@@ -53,14 +52,14 @@
 ### Utilities
 - 7-Zip 17.05
 - aria2 1.37.0
-- azcopy 10.25.1
+- azcopy 10.26.0
 - bazel 7.2.1
 - bazelisk 1.20.0
 - bsdtar 3.5.3 - available by 'tar' alias
-- Curl 8.8.0
-- Git 2.45.2
+- Curl 8.9.1
+- Git 2.46.0
 - Git LFS 3.5.1
-- GitHub CLI 2.53.0
+- GitHub CLI 2.54.0
 - GNU Tar 1.35 - available by 'gtar' alias
 - GNU Wget 1.24.5
 - gpg (GnuPG) 2.4.5
@@ -68,21 +67,21 @@
 - OpenSSL 1.1.1w  11 Sep 2023
 - Packer 1.9.4
 - pkg-config 0.29.2
-- yq 4.44.2
+- yq 4.44.3
 - zstd 1.5.6
 
 ### Tools
-- AWS CLI 2.17.14
-- AWS SAM CLI 1.120.0
+- AWS CLI 2.17.22
+- AWS SAM CLI 1.121.0
 - AWS Session Manager CLI 1.2.650.0
 - Azure CLI 2.62.0
 - Azure CLI (azure-devops) 1.0.1
-- Bicep CLI 0.29.45
-- Cmake 3.30.1
-- CodeQL Action Bundle 2.18.0
-- Fastlane 2.221.1
-- SwiftFormat 0.54.1
-- Xcbeautify 2.4.1
+- Bicep CLI 0.29.47
+- Cmake 3.30.2
+- CodeQL Action Bundle 2.18.1
+- Fastlane 2.222.0
+- SwiftFormat 0.54.3
+- Xcbeautify 2.7.0
 - Xcode Command Line Tools 14.3.1.0.1.1683849156
 - Xcodes 1.5.0
 
@@ -90,14 +89,14 @@
 - SwiftLint 0.55.1
 
 ### Browsers
-- Safari 17.5 (18618.2.12.111.5)
-- SafariDriver 17.5 (18618.2.12.111.5)
-- Google Chrome 126.0.6478.183
-- Google Chrome for Testing 126.0.6478.182
-- ChromeDriver 126.0.6478.182
-- Microsoft Edge 126.0.2592.113
-- Microsoft Edge WebDriver 126.0.2592.102
-- Mozilla Firefox 128.0
+- Safari 17.6 (18618.3.11.11.7)
+- SafariDriver 17.6 (18618.3.11.11.7)
+- Google Chrome 127.0.6533.89
+- Google Chrome for Testing 127.0.6533.88
+- ChromeDriver 127.0.6533.88
+- Microsoft Edge 127.0.2651.86
+- Microsoft Edge WebDriver 127.0.2651.87
+- Mozilla Firefox 128.0.3
 - geckodriver 0.34.0
 - Selenium server 4.23.0
 
@@ -111,7 +110,7 @@
 ### Java
 | Version             | Environment Variable |
 | ------------------- | -------------------- |
-| 8.0.422+5           | JAVA_HOME_8_X64      |
+| 8.0.422+5.1         | JAVA_HOME_8_X64      |
 | 11.0.24+8           | JAVA_HOME_11_X64     |
 | 17.0.12+7 (default) | JAVA_HOME_17_X64     |
 | 21.0.4+7.0          | JAVA_HOME_21_X64     |
@@ -139,7 +138,7 @@
 #### Node.js
 - 16.20.2
 - 18.20.4
-- 20.15.1
+- 20.16.0
 
 #### Go
 - 1.20.14
@@ -147,17 +146,17 @@
 - 1.22.5
 
 ### Rust Tools
-- Cargo 1.79.0
-- Rust 1.79.0
-- Rustdoc 1.79.0
+- Cargo 1.80.0
+- Rust 1.80.0
+- Rustdoc 1.80.0
 - Rustup 1.27.1
 
 #### Packages
-- Clippy 0.1.79
+- Clippy 0.1.80
 - Rustfmt 1.7.0-stable
 
 ### PowerShell Tools
-- PowerShell 7.4.3
+- PowerShell 7.4.4
 
 #### PowerShell Modules
 - Az: 12.1.0
